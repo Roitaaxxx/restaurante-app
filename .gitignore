@@ -1,0 +1,37 @@
+# Ignorar la carpeta de compilación de Maven
+target/
+
+# Archivos de configuración de NetBeans o IDEs
+nbproject/
+build/
+nbbuild/
+dist/
+nbactions.xml
+
+# Archivos de configuración de Visual Studio Code
+.vscode/
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+# --- Reglas esenciales de Maven y Java ---
+target/
+*.jar
+*.war
+*.ear
+
+# --- Reglas específicas para NetBeans ---
+**/nbproject/private/
+**/nbproject/Makefile-*.properties
+**/nbproject/Package-*.properties
+build/
+nbbuild/
+dist/
+nbactions.xml
+
+# --- Archivos de configuración de editores (como VS Code) ---
+.vscode/
+
+# --- Archivos del sistema ---
+Thumbs.db
+.DS_Store
