@@ -28,7 +28,7 @@ El sistema fue diseñado para solucionar problemas de establecimientos de comida
   * Recargo dinámico por zona de cobertura en domicilios.
 * **Descuentos Dinámicos por Día:** Configuración de promociones especiales.
 * **Persistencia de Datos:** Almacenamiento seguro mediante archivos para guardar clientes, ventas e historial.
-* **Interfaz Gráfica de Usuario (GUI):** Entorno amigable desarrollado con Java Swing/JavaFX.
+* **Interfaz Gráfica de Usuario (GUI):** Entorno amigable desarrollado con JavaFX y CSS.
 
 ---
 
