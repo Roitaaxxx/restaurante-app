@@ -1,0 +1,53 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 2/11/2026, 3:33:10 p. m.
+    Author     : roita
+*/
+
+/* Contenedor principal */
+.contenedor-principal {
+    -fx-background-color: #1a1a1a;
+    -fx-border-color: #333333;
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-padding: 30px;
+}
+
+.titulo-fondo {
+    -fx-font-family: 'Crazy Blocks DEMO';
+    -fx-text-fill: #FF5500;
+    -fx-font-size: 110px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.eslogan {
+    -fx-text-fill: #FF5500;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 2px;
+}
+
+.titulo {
+    -fx-text-fill: #F5F3EF;
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+}
+
+.boton-accion {
+    -fx-background-color: #FF5500;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-padding: 12px 25px;
+    -fx-cursor: hand;
+}
+
+.boton-accion:hover {
+    -fx-background-color: #E04B00;
+}
