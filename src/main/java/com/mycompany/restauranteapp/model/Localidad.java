@@ -38,7 +38,7 @@ public class Localidad {
     
     
     public void modificarValor(double nuevoValor){ //El administrador actualiza el precio del domicilio en esa zona x
-        this.valorDomicilio = nuevoValor; // nuevoValor es lo que mete el administrador y se guarda en localidad despues
+        valorDomicilio = nuevoValor; // nuevoValor es lo que mete el administrador y se guarda en localidad despues
     }
     
     
