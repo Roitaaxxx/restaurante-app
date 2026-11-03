@@ -1,3 +1,4 @@
+
 package com.mycompany.restauranteapp.model;
 
 public class Producto {

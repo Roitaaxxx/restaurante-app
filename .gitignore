@@ -35,3 +35,5 @@ nbactions.xml
 # --- Archivos del sistema ---
 Thumbs.db
 .DS_Store
+docs/UML/.*.bkp
+docs/UML/*.drawio

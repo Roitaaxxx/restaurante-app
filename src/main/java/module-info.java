@@ -1,7 +1,5 @@
-module com.mycompany.proyectorestaurante {
+module com.mycompany.restauranteapp {
     requires javafx.controls;
-    requires javafx.fxml;
 
-    opens com.mycompany.proyectorestaurante to javafx.fxml;
-    exports com.mycompany.proyectorestaurante;
+    exports com.mycompany.restauranteapp;
 }
