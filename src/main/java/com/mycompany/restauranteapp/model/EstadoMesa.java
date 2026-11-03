@@ -9,5 +9,5 @@ package com.mycompany.restauranteapp.model;
  * @author LaMar
  */
 public enum EstadoMesa {
-    Libre, Ocupada, Reservada
+    Libre, Ocupada, Facturando
 }
