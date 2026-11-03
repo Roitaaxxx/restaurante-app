@@ -62,13 +62,13 @@ public class Mesa {
             return true;
         }
         else{
-            return false; //Si se ve que la mesa esta ocupada o reservada, la mesa NO está disponible
+            return false; //Si se ve que la mesa esta ocupada o en proceso de facturacion, la mesa NO está disponible
         }
     }
     
     
     public void iniciarFacturacion(){ //Estado en el que se encuentra la mesa en el momento en el que la facturación tiene lugar
-        this.estado = EstadoMesa.Ocupada; 
+        this.estado = EstadoMesa.Facturando; 
     }
     
     
