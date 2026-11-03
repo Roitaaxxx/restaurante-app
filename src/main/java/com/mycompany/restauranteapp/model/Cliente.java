@@ -73,13 +73,17 @@ public class Cliente {
     }
     
     
-    public void agregarDireccion(Direccion nuevaDireaccion){
-          direccion.add(nuevaDireaccion);
+    public void agregarDireccion(Direccion nuevaDireccion){ //Validacion, que coja por ramas y no se crashee
+          if (nuevaDireccion !=  null){ //La direccion solo se va a agregar si no hay nada/no es nula
+              direccion.add(nuevaDireccion);
+          }
     }
     
     
-    public void eliminarDireccion(Direccion direccionAEliminar){
-        direccion.remove(direccionAEliminar);
+    public void eliminarDireccion(Direccion direccionAEliminar){ //Validacion, verificacion de que se puede proceder
+        if (direccion.contains(direccionAEliminar)){ //Se revisa si la direccion esta en la lista
+            direccion.remove(direccionAEliminar); //Al confirmar/verificar que efectuvamente es así se elimina la direaccion
+        }
     }
     
     
