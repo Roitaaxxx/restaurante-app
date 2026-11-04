@@ -1,4 +1,4 @@
-package main.java.com.mycompany.restauranteapp.model;
+package com.mycompany.restauranteapp.model;
 
 import java.util.ArrayList;
 import java.util.List;
