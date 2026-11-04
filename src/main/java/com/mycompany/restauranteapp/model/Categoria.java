@@ -1,3 +1,5 @@
+package main.java.com.mycompany.restauranteapp.model;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,7 +25,7 @@ public class Categoria
         //Agregar solo productos que no sean nulos y que no estén dentro de la lista ya
         if (producto!=null && !this.productos.contains(producto))
         {
-            this.productos.add(producto); 
+            this.productos.add(producto);
         }
     }
 

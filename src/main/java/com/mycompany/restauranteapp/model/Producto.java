@@ -1,5 +1,4 @@
-
-package com.mycompany.restauranteapp.model;
+package main.java.com.mycompany.restauranteapp.model;
 
 public class Producto {
     private String nombre;
