@@ -16,7 +16,7 @@ public class Usuario {
     private boolean activo;
     
     //constructor por defecto
-    public Usuario(){
+    public Usuario(String nombre, String correo1, String contrasena, String telefono){
         
     }
     
