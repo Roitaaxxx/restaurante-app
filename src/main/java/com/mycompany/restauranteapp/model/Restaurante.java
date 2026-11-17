@@ -15,13 +15,8 @@ public class Restaurante
 {
     //Atributos de la clase 'Restaurante'
     private String nombre; 
-    private Menu menu; 
     private List<Mesa> mesas; 
-    private List<Pedido> pedidos; 
     private List<Cliente> clientes; 
     private List<Mesero> meseros; 
-    private List<Reserva> reservas; 
-    private GestionDescuento gestionDescuentos; 
-    private String rutaLogo; 
-    
+    private String rutaLogo;
 }
