@@ -19,12 +19,11 @@ public class Categoria
         this.rutaImagen=rutaImagen;
     }
 
-    //Metodo de Agregar Producto
-    public void agregarProducto (Producto producto)
+    public void agregarProducto(Producto producto)
     {
-        //Agregar solo productos que no sean nulos y que no estén dentro de la lista ya
-        if (producto!=null && !this.productos.contains(producto))
+        if (producto != null && !this.productos.contains(producto))
         {
+            producto.setCategoria(this);
             this.productos.add(producto);
         }
     }
