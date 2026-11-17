@@ -7,6 +7,7 @@ public class Producto {
     private boolean disponible;
     private int id;
     private String rutaImagen;
+    private Categoria categoria;
     
     //constructor por defecto
     public Producto(){
@@ -20,6 +21,11 @@ public class Producto {
         this.disponible = disponible;
         this.id = id;
         this.rutaImagen = rutaImagen;
+    }
+    
+    public Categoria getCategoria()
+    {
+        return categoria;
     }
     
     public String getNombre(){
@@ -58,6 +64,16 @@ public class Producto {
     
     public void setDescripcion(String descripcion){
         this.descripcion = descripcion;
+    }
+    
+    public void setCategoria(Categoria categoria)
+    {
+        if(categoria == null)
+        {
+            throw new IllegalArgumentException("La categoria no puede ser nula");
+        }
+
+        this.categoria = categoria;
     }
     
     public void marcarDisponible(){
