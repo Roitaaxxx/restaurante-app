@@ -16,8 +16,6 @@ import java.io.ObjectOutputStream;
  */
 
 public class ArchivoPersistencia {
-
-    // Atributo privado (- rutaDatos: String)
     private String rutaDatos;
 
     // Constructor por defecto
@@ -30,7 +28,6 @@ public class ArchivoPersistencia {
         this.rutaDatos = rutaDatos;
     }
 
-    // Método para guardar (+ guardarDatos(r: Restaurante): void)
     public void guardarDatos(Restaurante r) {
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(rutaDatos))) {
             oos.writeObject(r);
@@ -41,7 +38,6 @@ public class ArchivoPersistencia {
         }
     }
 
-    // Método para cargar (+ cargarDatos(): Restaurante)
     public Restaurante cargarDatos() {
         if (!existeArchivo()) {
             System.out.println("El archivo no existe todavía.");
@@ -59,7 +55,6 @@ public class ArchivoPersistencia {
         }
     }
 
-    // Método para verificar la existencia (+ existeArchivo(): boolean)
     public boolean existeArchivo() {
         File archivo = new File(rutaDatos);
         return archivo.exists() && !archivo.isDirectory();

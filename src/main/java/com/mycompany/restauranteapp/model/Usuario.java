@@ -11,20 +11,15 @@ package com.mycompany.restauranteapp.model;
 public class Usuario {
     private int id;
     private String correo;
-    private String contrasenaHash;
+    private String contrasena;
     private Rol rol;
     private boolean activo;
     
-    //constructor por defecto
-    public Usuario(String nombre, String correo1, String contrasena, String telefono){
-        
-    }
-    
     //contructor con parametros
-    public Usuario(int id, String correo, String contrasenaHash, Rol rol, boolean activo){
+    public Usuario(int id, String correo, String contrasena, Rol rol, boolean activo){
         this.id = id;
         this.correo = correo;
-        this.contrasenaHash = contrasenaHash;
+        this.contrasena = contrasena;
         this.rol = rol;
         this.activo = activo;
     }
@@ -37,8 +32,8 @@ public class Usuario {
         return correo;
     }
     
-    public String getContrasenaHash(){
-        return contrasenaHash;
+    public String getContrasena(){
+        return contrasena;
     }
     
     public Rol getRol(){
@@ -50,7 +45,7 @@ public class Usuario {
     }
     
     public void cambiarContrasena(String nuevaContrasena){
-        this.contrasenaHash = nuevaContrasena;
+        this.contrasena = nuevaContrasena;
     }
     
     public void activarCuenta(){
