@@ -8,12 +8,13 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable; 
 
 /**
  *
  * @author roita
  */
-public abstract class Pedido {
+public abstract class Pedido implements Serializable {
     protected int codigo;
     protected ArrayList<DetallePedido> detalles;
     protected EstadoPedido estado;
