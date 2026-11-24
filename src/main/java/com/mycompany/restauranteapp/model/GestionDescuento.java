@@ -56,12 +56,6 @@ public class GestionDescuento {
         }
     }
     
-    /**
-     *
-     * @param dia
-     * @param categoria
-     * @return
-     */
     public Descuento buscarDescuento(DayOfWeek dia, Categoria categoria){
         for(Descuento descuento : descuentos){
 

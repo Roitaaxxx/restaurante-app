@@ -15,13 +15,13 @@ public class Autenticacion {
         this.usuarios = new ArrayList<>();
     }
 
-    public Usuario registrarCliente(String correo, String contrasenaHash){
+    public Usuario registrarCliente(String correo, String contrasena){
         if(buscarUsuario(correo) != null){
             return null;
         }
         else{
             int id = usuarios.size() + 1;
-            Usuario nuevoCliente = new Usuario(id,correo,contrasenaHash,Rol.CLIENTE,true);
+            Usuario nuevoCliente = new Usuario(id,correo,contrasena,Rol.CLIENTE,true);
             usuarios.add(nuevoCliente);
             return nuevoCliente;
         }
@@ -37,7 +37,7 @@ public class Autenticacion {
             return null;
         }
         
-        if(usuario.getContrasenaHash().equals(contrasena)){
+        if(usuario.getContrasena().equals(contrasena)){
             return usuario;
         }
         return null;

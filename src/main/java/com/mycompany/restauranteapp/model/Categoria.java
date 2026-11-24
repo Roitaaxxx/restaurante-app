@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Categoria
 {
-    //Atributos de la clase 'Categoría'
     private String nombre;
     private String descripcion;
     private List<Producto> productos = new ArrayList<>();
@@ -68,7 +67,6 @@ public class Categoria
     }
 
     //Setters y Getters
-    //-Nombre
     public String getNombre ()
     {
         return nombre;
@@ -78,7 +76,6 @@ public class Categoria
         this.nombre=nombre;
     }
 
-    //-Descripción
     public String getDescripcion ()
     {
         return descripcion;
@@ -88,7 +85,6 @@ public class Categoria
         this.descripcion=descripcion;
     }
 
-    //Ruta de Imagen
     public String getRutaImagen ()
     {
         return rutaImagen;

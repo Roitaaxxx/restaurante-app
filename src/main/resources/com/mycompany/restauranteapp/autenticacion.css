@@ -1,0 +1,286 @@
+
+/* =========================================
+   ANTOJADOS - LOGIN CON FONDO COMPLETO
+========================================= */
+
+.capa-login {
+    -fx-background-color:
+        linear-gradient(
+            to right,
+            rgba(40, 5, 5, 0.10) 0%,
+            rgba(40, 5, 5, 0.25) 45%,
+            rgba(40, 5, 5, 0.65) 100%
+        );
+}
+
+/* =========================================
+   PANEL FLOTANTE
+========================================= */
+
+.panel-autenticacion {
+    -fx-background-color: rgba(38, 9, 8, 0.91);
+    -fx-background-radius: 22px;
+    -fx-border-color: rgba(242, 188, 69, 0.45);
+    -fx-border-radius: 22px;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(0, 0, 0, 0.45),
+        25,
+        0.2,
+        0,
+        8
+    );
+}
+
+/* =========================================
+   ENCABEZADO
+========================================= */
+
+.etiqueta-login {
+    -fx-font-family: "Ragick";
+    -fx-font-size: 13px;
+    -fx-text-fill: #F2BC45;
+}
+
+.titulo-login {
+    -fx-font-family: "Spicy Sauce";
+    -fx-font-size: 35px;
+    -fx-text-fill: #F6F0E6;
+}
+
+.descripcion-login {
+    -fx-font-family: "Ragick";
+    -fx-font-size: 13px;
+    -fx-text-fill: #F2BC45;
+}
+
+/* =========================================
+   CAMPOS
+========================================= */
+
+.etiqueta-campo {
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F6F0E6;
+}
+
+.campo-autenticacion {
+    -fx-background-color: rgba(20, 5, 5, 0.85);
+    -fx-background-radius: 9px;
+    -fx-border-color: rgba(246, 240, 230, 0.20);
+    -fx-border-radius: 9px;
+    -fx-text-fill: #F6F0E6;
+    -fx-prompt-text-fill: #927D79;
+    -fx-padding: 13px;
+    -fx-font-size: 13px;
+}
+
+.campo-autenticacion:focused {
+    -fx-border-color: #F2BC45;
+}
+
+/* =========================================
+   BOTONES
+========================================= */
+
+.boton-principal {
+    -fx-background-color: #CA3732;
+    -fx-background-radius: 25px;
+    -fx-text-fill: #F6F0E6;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 14px;
+    -fx-cursor: hand;
+}
+
+.boton-principal:hover {
+    -fx-background-color: #E5883C;
+    -fx-text-fill: #651A19;
+}
+
+.boton-secundario {
+    -fx-background-color: transparent;
+    -fx-background-radius: 25px;
+    -fx-border-color: #F2BC45;
+    -fx-border-radius: 25px;
+    -fx-border-width: 1px;
+    -fx-text-fill: #F2BC45;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 13px;
+    -fx-cursor: hand;
+}
+
+.boton-secundario:hover {
+    -fx-background-color: #F2BC45;
+    -fx-text-fill: #651A19;
+}
+
+.boton-enlace {
+    -fx-background-color: transparent;
+    -fx-text-fill: #F2BC45;
+    -fx-font-size: 11px;
+    -fx-cursor: hand;
+}
+
+.boton-enlace:hover {
+    -fx-text-fill: #E5883C;
+}
+
+
+/* =========================================
+   FONDO
+========================================= */
+
+.capa-login {
+    -fx-background-color:
+        linear-gradient(
+            to right,
+            rgba(40, 5, 5, 0.02) 0%,
+            rgba(40, 5, 5, 0.08) 48%,
+            rgba(40, 5, 5, 0.42) 100%
+        );
+}
+
+/* =========================================
+   TARJETA LOGIN
+========================================= */
+
+.panel-autenticacion {
+    -fx-background-color: rgba(55, 9, 8, 0.91);
+    -fx-background-radius: 22px;
+    -fx-border-color: rgba(242, 188, 69, 0.70);
+    -fx-border-radius: 22px;
+    -fx-border-width: 1.3px;
+    -fx-effect: dropshadow(
+        gaussian,
+        rgba(0, 0, 0, 0.45),
+        25,
+        0.2,
+        0,
+        8
+    );
+}
+
+/* =========================================
+   ENCABEZADO
+========================================= */
+
+.bienvenida-login {
+    -fx-font-size: 14px;
+    -fx-text-fill: #F2BC45;
+}
+
+.titulo-login {
+    -fx-font-size: 34px;
+    -fx-text-fill: #F6F0E6;
+}
+
+/* =========================================
+   CAMPOS
+========================================= */
+
+.etiqueta-campo {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F6F0E6;
+}
+
+.campo-autenticacion {
+    -fx-background-color: rgba(25, 6, 6, 0.85);
+    -fx-background-radius: 10px;
+    -fx-border-color: rgba(242, 188, 69, 0.65);
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-text-fill: #F6F0E6;
+    -fx-prompt-text-fill: #A58D83;
+    -fx-padding: 14px;
+    -fx-font-size: 13px;
+}
+
+.campo-autenticacion:focused {
+    -fx-border-color: #F2BC45;
+    -fx-border-width: 1.5px;
+}
+
+/* =========================================
+   RECORDARME
+========================================= */
+
+.recordar-login {
+    -fx-text-fill: #F6F0E6;
+    -fx-font-size: 11px;
+}
+
+.recordar-login .box {
+    -fx-background-color: transparent;
+    -fx-border-color: #F2BC45;
+    -fx-border-radius: 3px;
+}
+
+.recordar-login:selected .mark {
+    -fx-background-color: #F2BC45;
+}
+
+/* =========================================
+   BOTONES
+========================================= */
+
+.boton-principal {
+    -fx-background-color: #CA3732;
+    -fx-background-radius: 30px;
+    -fx-text-fill: #F6F0E6;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 15px;
+    -fx-cursor: hand;
+}
+
+.boton-principal:hover {
+    -fx-background-color: #E5883C;
+    -fx-text-fill: #651A19;
+}
+
+.boton-secundario {
+    -fx-background-color: transparent;
+    -fx-background-radius: 30px;
+    -fx-border-color: #F2BC45;
+    -fx-border-radius: 30px;
+    -fx-border-width: 1.5px;
+    -fx-text-fill: #F2BC45;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 14px;
+    -fx-cursor: hand;
+}
+
+.boton-secundario:hover {
+    -fx-background-color: #F2BC45;
+    -fx-text-fill: #651A19;
+}
+
+.boton-enlace {
+    -fx-background-color: transparent;
+    -fx-text-fill: #F2BC45;
+    -fx-font-size: 11px;
+    -fx-cursor: hand;
+}
+
+.boton-enlace:hover {
+    -fx-text-fill: #E5883C;
+}
+
+/* =========================================
+   SEPARADOR
+========================================= */
+
+.linea-separador {
+    -fx-background-color: rgba(242, 188, 69, 0.55);
+    -fx-pref-height: 1px;
+}
+
+.texto-separador {
+    -fx-text-fill: #F6F0E6;
+    -fx-font-weight: bold;
+}

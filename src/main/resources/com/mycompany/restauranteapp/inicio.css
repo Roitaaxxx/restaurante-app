@@ -1,0 +1,203 @@
+
+/* =========================================
+   ANTOJADOS - PORTADA
+========================================= */
+
+.portada {
+    -fx-background-color: #651A19;
+}
+
+.contenido-portada {
+    -fx-background-color: transparent;
+}
+
+/* =========================================
+   CAPA SOBRE LA FOTOGRAFIA
+========================================= */
+
+.capa-fondo {
+    -fx-background-color:
+        linear-gradient(
+            to right,
+            rgba(40, 5, 5, 0.94) 0%,
+            rgba(55, 9, 8, 0.78) 35%,
+            rgba(55, 9, 8, 0.28) 68%,
+            rgba(40, 5, 5, 0.10) 100%
+        );
+}
+
+/* =========================================
+   ENCABEZADO
+========================================= */
+
+.encabezado {
+    -fx-padding: 5px 0px 18px 0px;
+    -fx-border-color: transparent transparent rgba(246, 240, 230, 0.18) transparent;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+
+.nombre-logo {
+    -fx-font-family: "Ragick";
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F2BC45;
+}
+
+.categoria-logo {
+    -fx-font-size: 9px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F6F0E6;
+}
+
+/* =========================================
+   NAVEGACION
+========================================= */
+
+.opcion-menu {
+    -fx-font-size: 14px;
+    -fx-text-fill: #F6F0E6;
+    -fx-cursor: hand;
+}
+
+.opcion-menu:hover {
+    -fx-text-fill: #F2BC45;
+}
+
+.opcion-activa {
+    -fx-text-fill: #F2BC45;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent transparent #F2BC45 transparent;
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-padding: 0px 0px 8px 0px;
+}
+
+/* =========================================
+   SECCION PRINCIPAL
+========================================= */
+
+.seccion-principal {
+    -fx-background-color: transparent;
+}
+
+.etiqueta-principal {
+    -fx-font-family: "Ragick";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F2BC45;
+}
+
+/* Primera parte del titulo */
+
+.titulo-principal {
+    -fx-font-family: "Spicy Sauce";
+    -fx-font-size: 43px;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-text-fill: #F6F0E6;
+}
+
+/* Segunda parte del titulo */
+
+.titulo-destacado {
+    -fx-font-family: "Spicy Sauce";
+    -fx-font-size: 65px;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-text-fill: #F2BC45;
+}
+
+/* =========================================
+   DESCRIPCION Y ESLOGAN
+========================================= */
+
+.descripcion-principal {
+    -fx-font-size: 14px;
+    -fx-text-fill: #F6F0E6;
+    -fx-line-spacing: 4px;
+}
+
+.eslogan-principal {
+    -fx-font-family: "Ragick";
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #E5883C;
+}
+
+/* =========================================
+   BOTONES
+========================================= */
+
+.boton-principal {
+    -fx-background-color: #CA3732;
+    -fx-background-radius: 25px;
+    -fx-text-fill: #F6F0E6;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 14px 23px;
+    -fx-cursor: hand;
+}
+
+.boton-principal:hover {
+    -fx-background-color: #E5883C;
+    -fx-text-fill: #651A19;
+}
+
+.boton-secundario {
+    -fx-background-color: rgba(101, 26, 25, 0.25);
+    -fx-background-radius: 25px;
+    -fx-border-color: #F2BC45;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 25px;
+    -fx-text-fill: #F2BC45;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-padding: 13px 23px;
+    -fx-cursor: hand;
+}
+
+.boton-secundario:hover {
+    -fx-background-color: #F2BC45;
+    -fx-text-fill: #651A19;
+}
+
+/* =========================================
+   GALERIA
+========================================= */
+
+.titulo-galeria {
+    -fx-font-family: "Ragick";
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F2BC45;
+}
+
+.tarjeta-producto {
+    -fx-background-color: rgba(40, 5, 5, 0.45);
+    -fx-background-radius: 12px;
+    -fx-border-color: rgba(246, 240, 230, 0.20);
+    -fx-border-radius: 12px;
+    -fx-border-width: 1px;
+    -fx-padding: 8px 10px;
+    -fx-cursor: hand;
+}
+
+.tarjeta-producto:hover {
+    -fx-background-color: rgba(202, 55, 50, 0.55);
+    -fx-border-color: #F2BC45;
+}
+
+.imagen-producto {
+    -fx-background-color: transparent;
+    -fx-background-radius: 8px;
+}
+
+.nombre-producto {
+    -fx-font-family: "Ragick";
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F6F0E6;
+}
+
+.emoji-producto {
+    -fx-font-size: 38px;
+}
