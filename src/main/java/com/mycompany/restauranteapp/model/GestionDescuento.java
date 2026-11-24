@@ -6,12 +6,13 @@ package com.mycompany.restauranteapp.model;
 
 import java.util.ArrayList;
 import java.time.DayOfWeek;
+import java.io.Serializable; 
 
 /**
  *
  * @author roita
  */
-public class GestionDescuento {
+public class GestionDescuento implements Serializable {
     private ArrayList<Descuento> descuentos;
     
     public GestionDescuento(){

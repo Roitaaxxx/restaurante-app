@@ -5,12 +5,13 @@
 package com.mycompany.restauranteapp.model;
 
 import java.time.DayOfWeek;
+import java.io.Serializable; 
 
 /**
  *
  * @author roita
  */
-public class Descuento {
+public class Descuento implements Serializable {
     private int id;
     private String nombre;
     private double porcentaje;

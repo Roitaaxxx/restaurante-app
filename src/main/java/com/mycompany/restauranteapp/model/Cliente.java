@@ -4,11 +4,12 @@
  */
 package com.mycompany.restauranteapp.model;
 import java.util.ArrayList;
+import java.io.Serializable; 
 /**
  *
  * @author LaMar
  */
-public class Cliente {
+public class Cliente implements Serializable {
     private int id;
     private String nombre;
     private String telefono;

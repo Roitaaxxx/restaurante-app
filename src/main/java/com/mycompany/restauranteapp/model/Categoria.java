@@ -2,8 +2,9 @@ package com.mycompany.restauranteapp.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.io.Serializable; 
 
-public class Categoria
+public class Categoria implements Serializable
 {
     private String nombre;
     private String descripcion;

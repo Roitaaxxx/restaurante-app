@@ -4,11 +4,13 @@
  */
 package com.mycompany.restauranteapp.model;
 
+import java.io.Serializable; 
+
 /**
  *
  * @author roita
  */
-public class DetallePedido {
+public class DetallePedido implements Serializable {
     private Producto producto;
     private int cantidad;
     private double precioUnitario;

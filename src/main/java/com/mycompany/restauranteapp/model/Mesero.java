@@ -4,11 +4,13 @@
  */
 package com.mycompany.restauranteapp.model;
 
+import java.io.Serializable; 
+
 /**
  *
  * @author LaMar
  */
-public class Mesero {
+public class Mesero implements Serializable {
     private int id;
     private String nombre;
     private double salario;

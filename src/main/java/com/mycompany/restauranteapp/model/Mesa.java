@@ -4,11 +4,13 @@
  */
 package com.mycompany.restauranteapp.model;
 
+import java.io.Serializable; 
+
 /**
  *
  * @author user LaMar
  */
-public class Mesa {
+public class Mesa implements Serializable {
     private int codigo;
     private int capacidad;
     private EstadoMesa estado;

@@ -4,11 +4,13 @@
  */
 package com.mycompany.restauranteapp.model;
 
+import java.io.Serializable; 
+
 /**
  *
  * @author LaMar
  */
-public class Direccion {
+public class Direccion implements Serializable {
     private int id;
     private String descripcion;
     private Localidad localidad;
